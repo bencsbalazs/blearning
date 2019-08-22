@@ -1,0 +1,22 @@
+{
+  "name": "blearning",
+  "version": "1.0.0",
+  "description": "This is my javascript elearning framework.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bencsbalazs/blearning.git"
+  },
+  "scripts": {
+    "start": "lerna run start --stream --parallel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balazs Bencs",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lerna": "^3.16.4",
+    "mocha": "^6.2.0",
+    "typescript": "^3.5.3"
+  }
+}
